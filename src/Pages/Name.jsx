@@ -29,7 +29,7 @@ const Name = () => {
         >
           <input
             type="text"
-            placeholder="john"
+            placeholder="Put name like Ayush"
             value={name}
             onChange={(e) => {
               setName(e.target.value);
